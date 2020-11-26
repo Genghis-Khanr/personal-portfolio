@@ -1,0 +1,28 @@
+
+
+.bg-test {
+    padding: 25px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://picsum.photos/1000/800') no-repeat center;
+    color: white;
+}
+
+.bg-test-2 {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://picsum.photos/500/500') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 25px;
+}
+
+
+hr {
+    background: black;
+}
+
+.feature-hero {
+    background: url('https://via.placeholder.com/1000x400') center;
+    
+}
+
+.custom-p {
+    max-width: 600px;
+}
