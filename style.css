@@ -1,31 +1,31 @@
 .featured-grass-and-root {
     padding: 25px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('imgs/grass-and-root/featured.jpg') no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./imgs/grass-and-root/featured.jpg') no-repeat center;
     color: white;
 }
 
 .featured-northwest-safe {
     padding: 25px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('imgs/northwest-safe/featured.jpg') no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./imgs/northwest-safe/featured.jpg') no-repeat center;
     color: white;
 }
 
 .featured-vote-kael {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('imgs/vote-kael/featured.jpg') no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./imgs/vote-kael/featured.jpg') no-repeat center;
     background-size: cover;
     color: white;
     padding: 25px;
 }
 
 .featured-sundays-on-cole {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('imgs/sundays-on-cole/featured.jpg') no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./imgs/sundays-on-cole/featured.jpg') no-repeat center;
     background-size: cover;
     color: white;
     padding: 25px;
 }
 
 .featured-mystik-music {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('imgs/mystik-music/featured.jpg') no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./imgs/mystik-music/featured.jpg') no-repeat center;
     background-size: cover;
     color: white;
     padding: 25px;
