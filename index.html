@@ -9,33 +9,51 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width">
 </head>
-<body>
-    
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<body>    
     
 <div class="container">
   <!-- Feature 1 -->
   <div class="row">
     <div class="col-12">
       <div class="featured-grass-and-root mb-3">
-        <div class="col-12 order-2 col-md-7 order-md-2 my-auto">
-          <h1>Grass &amp; Root Juice Co.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec.</p>
+          <div class="row">
+            <div class="col-lg-8 col-md-7 order-2 my-auto text-center text-md-left">
+            <h1>Grass & Root Juice</h1>
+            <p class="w-75 mx-auto mx-md-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec.</p>
+            <a href="https://mcelroy.design/grass-and-root.html"><button type="button" class="btn btn-primary btn-lg">Large button</button></a>
           </div>
-          <div class="col-12 order-1 col-md-5 order-md-1 my-auto"> <img src="./imgs/grass-and-root/grass-and-root-logo-white.svg" class="img-fluid w-100" alt=""> </div>
+          <div class="col-lg-4 col-md-5 order-1">
+            <img src="./imgs/grass-and-root/grass-and-root-logo-white.svg" class="img-fluid w-75 mx-auto d-block" alt=""> 
+          </div>
+          </div>
         </div>
+      </div>
     </div>
-  </div>
   <!-- Feature 2 -->
   <div class="row">
     <div class="col-12">
       <div class="featured-northwest-safe mb-3">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-8 col-md-7 order-2 my-auto text-center text-md-left">
             <h1>Northwest Safe</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec.</p>
+            <p class="w-75 mx-auto mx-md-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec.</p>
+            <a href="https://mcelroy.design/northwest-safe.html"><button type="button" class="btn btn-primary btn-lg">Large button</button></a>
           </div>
-          <div class="col-6">
-            <img src="./imgs/northwest-safe/northwest-safe-icon-white.svg" class="img-fluid" alt=""> 
+          <div class="col-lg-4 col-md-5 order-1">
+            <img src="./imgs/northwest-safe/northwest-safe-icon-white.svg" class="img-fluid w-75 mx-auto d-block" alt=""> 
           </div>
           </div>
         </div>
